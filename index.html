@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <h1>Spotify</h1>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Search</a>
+          <a href="#">Your Library</a>
+        </nav>
+        <section>
+          <h2>Playlists</h2>
+          <ul>
+            <li>Daily Mix 1</li>
+            <li>Chill Vibes</li>
+            <li>Focus Flow</li>
+            <li>Indie Discoveries</li>
+          </ul>
+        </section>
+      </aside>
+
+      <main class="content">
+        <header class="hero">
+          <p>Made for you</p>
+          <h2>Good Afternoon</h2>
+        </header>
+
+        <section>
+          <h3>Trending now</h3>
+          <div class="card-grid">
+            <article class="card">
+              <div class="cover cover-1"></div>
+              <h4>Today\'s Top Hits</h4>
+              <p>The hottest tracks right now.</p>
+            </article>
+            <article class="card">
+              <div class="cover cover-2"></div>
+              <h4>Lo-fi Beats</h4>
+              <p>Relax and stay productive.</p>
+            </article>
+            <article class="card">
+              <div class="cover cover-3"></div>
+              <h4>RapCaviar</h4>
+              <p>Hip-hop essentials, refreshed.</p>
+            </article>
+            <article class="card">
+              <div class="cover cover-4"></div>
+              <h4>Indie Mix</h4>
+              <p>Fresh discoveries and alt favorites.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="player">
+      <div class="song-meta">
+        <strong>Night Drive</strong>
+        <span>Nova Lane</span>
+      </div>
+      <div class="controls">
+        <button>⏮</button>
+        <button class="play">▶</button>
+        <button>⏭</button>
+      </div>
+      <div class="progress">
+        <span>1:12</span>
+        <input type="range" min="0" max="100" value="36" />
+        <span>3:45</span>
+      </div>
+    </footer>
+  </body>
+</html>
